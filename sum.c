@@ -8,6 +8,7 @@ char Is_Even(int a)
 
 }
 int div_a (int a, int b)
-{
+{if (b)
     return (a/b);
+    return -1;
 }
